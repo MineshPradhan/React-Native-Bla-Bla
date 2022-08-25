@@ -3,7 +3,7 @@ import {View, Text, ImageBackground} from 'react-native';
 import StyledButton from '../StyledButton';
 import styles from './styles';
 
-const CarItem = () => {
+const CarItem = (props) => {
   return (
     <View style={styles.carContainer}>
         <ImageBackground 
@@ -16,7 +16,7 @@ const CarItem = () => {
         <Text style={styles.subtitle}>Starting at $69,599</Text>
       </View>
 
-      <StyledButton />
+      <StyledButton type="secondary"/>
 
       </View>
   );
