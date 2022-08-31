@@ -17,8 +17,9 @@ const CarItem = (props) => {
       <View style={styles.titles}>
         <Text style={styles.title}>{name}</Text>
         <Text style={styles.subtitle}>
-          {tagline}&nbsp;
-          {/* non breaking space or we can use {' '} */}
+          {tagline}
+          {' '}
+          {/* non breaking space &nbsp or we can use {' '} */}
           <Text style={styles.subtitleCTA}>
             {taglineCTA}
           </Text>
