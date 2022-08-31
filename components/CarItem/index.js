@@ -31,14 +31,14 @@ const CarItem = (props) => {
         type="primary" 
         content={"Custom Order"} 
         onPress={() => {
-          console.warn("Custom Order was pressed.")
+          // console.warn("Custom Order was pressed.")
         }}/>
 
         <StyledButton 
         type="secondary" 
         content={"Existing Inventory"} 
         onPress={() => {
-          console.warn("Existing Inventory was pressed.")
+          // console.warn("Existing Inventory was pressed.")
         }}
         />
       </View>
